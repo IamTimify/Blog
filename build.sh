@@ -1,0 +1,34 @@
+pip install --upgrade pip
+pip install asgiref==3.5.0
+pip install attrs==21.4.0
+pip install backports.zoneinfo==0.2.1
+pip install certifi==2021.10.8
+pip install charset-normalizer==2.0.12
+pip install dj-database-url==0.5.0
+pip install Django==3.2.18
+pip install gunicorn==20.1.0
+pip install idna==3.3
+pip install iniconfig==1.1.1
+pip install packaging==21.3
+pip install pluggy==1.0.0
+pip install psycopg2==2.9.3
+pip install psycopg2-binary==2.9.3
+pip install py==1.11.0
+pip install pycryptodome==3.14.1
+pip install pyparsing==3.0.8
+pip install pytest==7.1.2
+pip install pytest-django==4.5.2
+pip install rave-python==1.2.15
+pip install requests==2.27.1
+pip install sqlparse==0.4.2
+pip install tomli==2.0.1
+pip install urllib3==1.26.9
+pip install whitenoise==5.2.0
+pip install six
+pip install cloudinary==1.25.0
+pip install dj_database_url
+pip install django-ckeditor==6.0.0
+pip install django-cloudinary-storage==0.3.0
+pip install requests --user
+pip install Pillow==9.0.1
+pip install Markdown==3.2.1
