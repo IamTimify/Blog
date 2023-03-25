@@ -29,6 +29,6 @@ pip install cloudinary==1.25.0
 pip install dj_database_url
 pip install django-ckeditor==6.0.0
 pip install django-cloudinary-storage==0.3.0
-pip install requests --user
+pip install requests
 pip install Pillow==9.0.1
 pip install Markdown==3.2.1

@@ -139,9 +139,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static_cdn")
 MEDIA_ROOT = os.path.join(BASE_DIR, "media_cdn")
 
 cloudinary.config(
-  cloud_name = os.getenv('CLOUDNAME')
-  api_key = os.getenv('CLOUDAPIKEY')
-  api_secret = os.getenv('CLOUDSECRETKEY')
+  cloud_name = os.getenv('CLOUDNAME'),
+  api_key = os.getenv('CLOUDAPIKEY'),
+  api_secret = os.getenv('CLOUDSECRETKEY',)
   secure = True
 )
 
