@@ -4,9 +4,8 @@
   <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="/static/tailwindcss.js/"></script>
   {% block title %} {% endblock title %}
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -33,14 +32,13 @@
       }
     }
   </script>
-  <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body>
     {% include "navbar.html" %}
     {% block content %}
     {% endblock content %}
     {% include "footer.html" %}
-  <script defer src="/static/alpinejscdn.min.js"></script>
   </body>
 </html>
 
